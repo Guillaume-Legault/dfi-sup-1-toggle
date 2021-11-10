@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="@cbyVE`h8-b{EdltM|:p">bouton</variable></variables><block type="device_forever" id="}aRyA8Ka/G)A~x$E):R{" x="-69" y="-5"><statement name="HANDLER"><block type="variables_set" id="tLqcuWYEPx1k|qE:qv(8"><field name="VAR" id="@cbyVE`h8-b{EdltM|:p">bouton</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_digital_pin" id="qe+7}I3KvtSy{F1eVz}C"><field name="name">DigitalPin.P0</field></block></value><next><block type="controls_if" id="oj0kL?L8nAx+aCpqx;_V"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="y|TPqxhs[q+l$n}rp0wg"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="v=fc)Q!1ExL0;x%]JX02"><field name="VAR" id="@cbyVE`h8-b{EdltM|:p">bouton</field></block></value><value name="B"><shadow type="math_number" id="3hh(aFEyG8`x}%0S1d1}"><field name="NUM">0</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="5@7twOY5oBEA%P[d5-p7"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="V3](QZ7_Z_/T|Mk;cpV1"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block></next></block></statement></block></xml>
